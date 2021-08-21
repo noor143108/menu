@@ -1,0 +1,46 @@
+.parent{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    float: both;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 450px;
+}
+.parent1{
+    display: flex;
+    flex-direction: row;
+    top:250px;
+    right:700px;
+}
+.task{
+    font-size: 3em;
+    font-weight: 600;
+    margin: 4;
+}
+.list{
+    font-size: 3em;
+    margin: 10px;
+    font-weight: 1;
+}
+.box{
+    border:2px dotted red;
+    display: inline;
+    margin: 10px;
+}
+.box1,.box2,.box3{
+    display: inline-flex;
+    height: 400px;
+    width: 400px;
+    background-color:whitesmoke;
+}
+.left{
+    float:left;
+    margin-left:250px;
+    margin-top: 100px;
+}
+.right{
+    float:right;
+    margin-right: 450px;
+    margin-top: 100px;
+}
